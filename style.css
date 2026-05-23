@@ -109,7 +109,7 @@ main {
 
 .gorjeta .botao-ativo {
   background-color: var(--light-green);
-  color: var(--grenn-800);
+ color: var(--grenn-800);
 }
 
 .gorjeta input[type="button"]:hover,
