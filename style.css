@@ -78,6 +78,8 @@ main {
   color: var(--green-300);
 }
 
+:-webkit
+
 .conta:has(input:focus) div,
 .conta:has(input:hover) div,
 .pessoas:has(input:focus) .input-box,
@@ -195,7 +197,7 @@ display: none;
 
  .conta input::-webkit-inner-spin-button,
  .pessoas input::-webkit-inner-spin-button,
- .gorjeta #outra::-webkit-file-upload-button {
+ .gorjeta #outra::-webkit-inner-spin-button {
   display: none;
  }
 
@@ -205,9 +207,10 @@ display: none;
   body {
   display: flex;
   flex-direction: column;
-  min-width: 100svh;
+  min-height: 100svh;
   justify-content: center;
   gap: 5rem;
+
   }
 
   header {
